@@ -1,11 +1,7 @@
 name: Publish latest imaptest
 
 on:
-  pull_request:
-  push:
-    paths:
-      - 'src/**'
-      - .github/workflows/static.yml
+  # Fork keeps this available for manual runs only; no auto-build on push/PR.
   workflow_dispatch:
 
 jobs:

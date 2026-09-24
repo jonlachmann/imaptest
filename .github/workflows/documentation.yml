@@ -1,8 +1,8 @@
 name: Test Building (and Deploy Documentation to GitHub Pages)
 
 on:
+  # Fork keeps this available for manual runs only; no auto-build/deploy on push.
   workflow_dispatch:
-  push:
 
 permissions:
   contents: read
